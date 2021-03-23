@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>page 4 </title>
+      <style>
+      
+body{
+    background:rgb(240, 240, 240) ;
+    font-family: tahoma ;
+    }
+
+.ar{
+    margin: auto;
+   }
+ nav{
+       height: 60px;
+       background:DarkSlateGray ;
+     box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+          }
+          
+ nav ul{
+        float: right;
+        margin-right: 30px;
+          } 
+nav ul li{
+    background: DarkSlateGray;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+        }
+nav ul li a{
+    display: block;         
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+          }   
+ nav ul li a:hover{
+     background: #243342;
+          }
+nav ul ul{
+    position: absolute;
+    top: 60px;
+    display: none;
+          }
+          nav ul li:hover > ul{
+            display: block;
+          }
+nav ul ul li{
+        width: 150px;
+        float: none;
+        display: list-item;
+        position: relative;
+          }
+          
+          
+          
+          
+          
+          
+          
+          
+          
+      </style>
+      <script scr="https://kit.fontawesome.com/a076d05399.js" ></script>
+ </head>  
+    <body>
+        <div class="ar">
+   <nav>
+        <ul>
+        <li><a href="#">T_Shirt</a>
+           <ul>   
+            <li><a href="#">Brcelona</a>  </li>
+              <li><a href="#">Bayern Munich</a>  </li>
+              <li><a href="#">Real Madrid</a>  </li>
+            </ul>
+            </li>
+        <li><a href="#">Shoes</a> 
+        <ul>
+ 
+         <li><a href="#">Adidass</a>  </li>
+         <li><a href="#">Nick</a>  </li>
+        </ul>
+            </li> 
+        <li> <a href="#">Gloves</a>  </li>
+        <li><a href="#" >Bolls</a>   </li>
+        </ul>
+  </nav>
+        </div>   
+  <div class="ab">
+      <center>
+     <video width="60%" controls>
+  <source src="video.mp4" type="video/mp4">
+  
+</video>   
+      </center>
+        
+        </div>      
+    </body>
+    
+    
+    
+    
+</html>
