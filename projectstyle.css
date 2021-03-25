@@ -1,0 +1,80 @@
+body
+{
+	
+	border: solid lightblue  ;
+ background-image: linear-gradient(lightblue,#ddd,lightblue);
+	
+}
+
+.bdiv1 {
+  display: flex;
+ flex-wrap: wrap;
+ 
+  
+}
+.bdiv1 > div {
+ border:solid black 1px;
+	border-radius:13px;
+  width: 280px;
+  margin: 10px;
+  height:400px;
+ 
+ 
+}
+
+
+.button{
+color:white;
+background-color:black ;
+font-size: 12px;
+border-radius: 12px;
+border: 5px solid blue;	
+}
+            /*****************************************/
+.div2
+{
+border:solid black 1px;
+border-radius:13px; 
+width:700px;
+height:650px;	
+}
+.bdiv2 
+	{
+		display: flex;
+ flex-wrap: wrap;
+		
+		
+	}
+
+.bdiv2 > div {
+ border:solid black 1px;
+	border-radius:13px;
+  width: 200px;
+  margin: 10px;
+  height:325px;
+}
+.main1
+{
+	display: flex;
+ flex-wrap: wrap;
+}
+
+.main1 > div
+{
+	
+	margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
